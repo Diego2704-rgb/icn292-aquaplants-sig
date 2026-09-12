@@ -1,0 +1,32 @@
+# Datos: nunca se versiona información real de clientes
+/data/
+*.csv
+*.xlsx
+*.sqlite
+*.db
+
+# Credenciales y configuración local
+.env
+.env.*
+*.pem
+*.key
+
+# Entornos y dependencias
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporales de ofimática y LaTeX
+~$*
+*.aux
+*.log
+*.out
+*.toc
